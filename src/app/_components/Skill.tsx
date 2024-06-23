@@ -9,7 +9,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "./common/Card";
-
+import Image from "next/image";
+import React from 'react';
 
 type Props = {};
 
@@ -47,6 +48,8 @@ const Skill = (props: Props) => {
             <FontAwesomeIcon icon={faSquareGithub} className="h-10" />
             <p>Github</p>
           </div>
+
+
         </div>
       </Card>
     </div>
