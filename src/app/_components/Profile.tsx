@@ -1,18 +1,19 @@
 import Image from "next/image";
 import React from "react";
+import "./common/rainbow.css"; 
 
 type Props = {};
 
 const Profile = (props: Props) => {
   return (
-    <div className="bg-blue-100 h-full p-4 rounded-xl px-4">
+    <div className="bg-blue-100 h-full p-4 rounded-xl px-4 hover:bg-blue-200 ease-in-out duration-300">
       <div className="flex justify-center items-center pt-4 pb-2">
         <Image
           src="/profile.jpg"
           width={500}
           height={500}
           alt="profile picture"
-          className="w-3/4 aspect-square rounded-full border-4 border-white"
+          className="w-3/4 aspect-square rounded-full border-4  border-amber-400	hover:border-white ease-in-out duration-300"
         />
       </div>
       <div className="text-center">
