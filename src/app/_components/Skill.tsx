@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "./common/Card";
-import "./common/rainbow.css"; 
+
 
 type Props = {};
 
@@ -15,7 +15,7 @@ const Skill = (props: Props) => {
   return (
     <div>
       <Card title="Skill">
-        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+        <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-4">
           <div className="text-center">
             <FontAwesomeIcon icon={faPython} className="h-10" />
             <p>Python</p>
