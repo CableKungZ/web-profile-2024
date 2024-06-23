@@ -7,6 +7,7 @@ import Skill from "./_components/Skill";
 import Goals from "./_components/Goals";
 import Portfolio from "./_components/Portfolio";
 import Link from "next/link";
+import Language from "./_components/Language";
 
 export default function Home() {
   return (
@@ -30,11 +31,11 @@ export default function Home() {
         <div className="grid col-span-6 grid-cols-3 xl:grid-cols-6 gap-4">
           <div className="grid col-span-3 gap-4">
             <Bio />
-            <Personality />
             <Goals />
           </div>
           <div className="grid col-span-3 gap-4">
             <Skill />
+            <Language />
             <Education />
             <Portfolio />
           </div>

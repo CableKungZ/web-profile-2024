@@ -10,22 +10,22 @@ const Portfolio = (props: Props) => {
         <ul className="list-inside list-disc">
           <li>
             <a
-              href="https://github.com/golang/go"
+              href="https://daobuddy.xyz/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500"
             >
-              Go - Programming Language
+              DaoBuddy - First Product Read/Show data from blockchain.
             </a>
           </li>
           <li>
             <a
-              href="https://github.com/wu-web-camp/web-profile-2024"
+              href="https://jassadakornsu.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500"
             >
-              web-profile-2024 - Personal Website
+              Personal Website
             </a>
           </li>
         </ul>
