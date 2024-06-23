@@ -19,9 +19,7 @@ export default function Home() {
           </Link>
         </div>
         <div>
-          <Link href="/blog" className="hover:text-blue-600">
-            Blog
-          </Link>
+
         </div>
       </div>
       <div className="grid grid-flow-col grid-cols-8 gap-4">
