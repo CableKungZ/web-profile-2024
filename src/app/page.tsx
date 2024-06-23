@@ -29,11 +29,11 @@ export default function Home() {
         <div className="grid col-span-6 grid-cols-3 xl:grid-cols-6 gap-4">
           <div className="grid col-span-3 gap-4">
             <Bio />
-            <Goals />
-          </div>
-          <div className="grid col-span-3 gap-4">
             <Skill />
             <Language />
+          </div>
+          <div className="grid col-span-3 gap-4">
+          <Goals />
             <Education />
             <Portfolio />
           </div>

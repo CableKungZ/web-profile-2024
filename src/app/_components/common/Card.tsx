@@ -1,5 +1,4 @@
 import React from "react";
-import "./rainbow.css"; 
 
 type Props = {
   title: string;
